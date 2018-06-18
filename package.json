@@ -1,0 +1,17 @@
+{
+  "name": "GpsTrackerGI",
+  "version": "0.0.1",
+  "description": "tracker",
+  "cordova": {
+    "id": "cordova-plugin-GpsTrackerGI",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "DAC",
+  "license": "MIT"
+}
