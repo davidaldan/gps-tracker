@@ -17,7 +17,7 @@ import android.widget.Toast;
 import java.util.HashMap;
 //import java.util.UUID;
 
-public class GpsTracker extends CordovaPlugin {
+public class gpstrackergi extends CordovaPlugin {
   private static final String TAG = "LocationService";
   @Override
   public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {

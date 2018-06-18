@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-GpsTrackerGI" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>GpsTrackerGI</name>
-    <js-module name="GpsTrackerGI" src="www/GpsTrackerGI.js">
-        <clobbers target="GpsTrackerGI" />
+<plugin id="cordova-plugin-gpstrackergi" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>gpstrackergi</name>
+    <js-module name="gpstrackergi" src="www/gpstrackergi.js">
+        <clobbers target="gpstrackergi" />
     </js-module>
 	
 	<platform name="android">
 	  <config-file target="config.xml" parent="/*">
-		<feature name="GpsTrackerGI">
+		<feature name="gpstrackergi">
 		  <param name="android-package"
-				 value="com.gps.plugin.GpsTracker"/>
+				 value="com.gps.plugin.gpstrackergi"/>
 		</feature>
 	  </config-file>
 	  <source-file src="src/android/com/gps/plugin/LoopjHttpClient.java" target-dir="src/com/gps/plugin" />
 	  <source-file src="src/android/com/gps/plugin/GeolocationService.java" target-dir="src/com/gps/plugin" />
 	  <source-file src="src/android/com/gps/plugin/GPSLocation.java" target-dir="src/com/gps/plugin" />
-	  <source-file src="src/android/com/gps/plugin/GpsTracker.java" target-dir="src/com/gps/plugin" />
+	  <source-file src="src/android/com/gps/plugin/gpstrackergi.java" target-dir="src/com/gps/plugin" />
 	</platform>
 	
 </plugin>

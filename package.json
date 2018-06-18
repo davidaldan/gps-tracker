@@ -1,9 +1,9 @@
 {
-  "name": "GpsTrackerGI",
+  "name": "gpstrackergi",
   "version": "0.0.1",
   "description": "tracker",
   "cordova": {
-    "id": "cordova-plugin-GpsTrackerGI",
+    "id": "cordova-plugin-gpstrackergi",
     "platforms": [
       "android"
     ]
